@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#password {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.options {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.actions button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actions button:first-child {
+    background: #28a745;
+    color: white;
+}
+
+.actions button:last-child {
+    background: #007bff;
+    color: white;
+}
+
+.actions button:hover {
+    opacity: 0.9;
+}
